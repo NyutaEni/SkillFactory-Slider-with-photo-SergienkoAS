@@ -1,3 +1,16 @@
+const slid = document.querySelector('.slider-img');
+const liNavigation = document.querySelector('.li-navigation');
+const sliderDiv = document.querySelector('.slider');
+
+liNavigation.addEventListener('click', () => {
+  slid.classList.remove('slider-img-position');
+});
+
+sliderDiv.addEventListener('click', () => {
+  slid.classList.remove('slider-img-position');
+});
+
+
 //НАВИГАЦИЯ
 const arrowLeft = document.querySelector('.slider__arrow-left');
 const arrowRight = document.querySelector('.slider__arrow-right');
