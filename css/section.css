@@ -96,8 +96,11 @@ margin: 7px;
 .slider-img{
     background-image: url(https://vann-good.ru/wp-content/uploads/c/f/f/cffda53ff97e65c470ad140ecec231d6.jpeg);
     background-repeat: no-repeat;
-    background-position:  50% 50%;
-    width: 679px;
-    height: 483px;
+    width: 675px;
+    height: 470px;
+}
+
+.slider-img-position{
+    background-position:  51% 50%;
 }
 
